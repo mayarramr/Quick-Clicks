@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="assign9.css">
+    <title>Quick Clicks</title>
+    <link rel="icon" href="ed481797c01fb389f6f3c52aff33e8c8.jpg">
+</head>
+<body>
+    <div class="homepage py-5">
+        <div class="container pb-5">
+            <div class="d-flex justify-content-center fonta text-center">
+                <div class="title">
+                   <h1 class="display-1 brown position-relative">Quick Clicks.</h1>
+                </div>
+            </div>
+            <div class="favsites d-flex justify-content-center marcellus my-4 dpink">
+                <h4><span><i class="fa-regular fa-bookmark" style="color: #ae4361;"></i></span> Bookmark your favorite sites <span><i class="fa-regular fa-bookmark" style="color: #ae4361;"></i></span></h4>
+            </div>
+            <div class="w-75 mx-auto lead brown">
+                <label for="siteName" class="mb-3"><span><i class="fa-solid fa-book-bookmark" style="color: #89375f;"></i></span> Site Name :</label>
+                <input type="text" class="form-control" id="siteName">
+                <label for="siteUrl" class="mt-5 mb-3"><span><i class="fa-solid fa-link" style="color: #89375f;"></i></span> Site URL :</label>
+                <input type="text" class="form-control" id="siteUrl">
+                <div class="d-flex justify-content-center my-5">
+                    <button class="border border-0 rounded-pill px-5 py-2 bg-dpink text-white marcellus" id="submitBtn" onclick="addSite()"><span>Submit</span></button>
+                </div>
+            </div>
+
+            <div>
+                <table class="table text-center marcellus w-75 mx-auto">
+                    <thead class="w-100">
+                       <tr>
+                        <th>Index</th>
+                        <th>Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                       </tr>
+                    </thead>
+                    <tbody id="tableContent">
+                       
+                    </tbody>
+                </table>
+            </div>
+           
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="assign9.js"></script>
+</body>
+</html>
