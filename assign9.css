@@ -79,3 +79,14 @@ button i{
 button:hover i{
     color: var(--brown);
 }
+@media  screen and (max-width:576px) {
+    .favsites{
+        text-align: center;
+    }
+    .favsites h4{
+        font-size: 20px;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+}
